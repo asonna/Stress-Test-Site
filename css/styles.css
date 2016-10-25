@@ -1,0 +1,29 @@
+body {
+  font-family: Helvetica;
+}
+
+p {
+  font-weight: bold;
+  color: darkgreen;
+}
+
+img {
+  width: 100%;
+}
+
+#btn {
+  background-color: darkgreen;
+  color: white;
+}
+
+#warning-responses {
+  display: none;
+}
+
+#sign-responses {
+  display: none;
+}
+
+#manage-responses {
+  display: none;
+}

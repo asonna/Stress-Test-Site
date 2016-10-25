@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <img src="img/stress-img.png">
+    <div class="container">
+      <form id="stress-test"><br>
+        <div class="form-group">
+          <p>In the past month, I have been experiencing the following symptoms:</p>
+          <input type="checkbox" name="stress-warning" value="appetite"> Loss of appetite.<br>
+          <input type="checkbox" name="stress-warning" value="sleep"> Loss of sleep.<br>
+          <input type="checkbox" name="stress-warning" value="overwhelmed"> Feeling overwhelmed.<br>
+          <input type="checkbox" name="stress-warning" value="energy"> Lack of energy.<br>
+          <input type="checkbox" name="stress-warning" value="concentration"> Lack of concentration.<br>
+        </div>
+        <div class="form-group">
+          <p>In the past month, I have been experiencing the following health related symptoms:</p>
+          <input type="checkbox" name="health-signs" value="blood-pressure"> High blood pressure.<br>
+          <input type="checkbox" name="health-signs" value="chest-pain"> Chest pain.<br>
+          <input type="checkbox" name="health-signs" value="anxiety"> Anxiety and panic attacks.<br>
+          <input type="checkbox" name="health-signs" value="migraines"> Migraines.<br>
+          <input type="checkbox" name="health-signs" value="vision"> Blurry vision.<br>
+        </div>
+        <div class="form-group">
+          <p>In the past month, how well are you managing stress? Check all that apply:</p>
+          <input type="checkbox" name="stress-manager" value="meditate"> Meditation and yoga.<br>
+          <input type="checkbox" name="stress-manager" value="time"> Time management.<br>
+          <input type="checkbox" name="stress-manager" value="pet-animal"> Pet an animal.<br>
+          <input type="checkbox" name="stress-manager" value="socializing"> Socializing.<br>
+          <input type="checkbox" name="stress-manager" value="exercising"> Exercising.<br>
+        </div>
+       <button id="btn" type="submit">Submit Survey!</button>
+      </form>
+      <span id="warning-responses">
+        <p><b>Here are the warning signs reflecting the beginning of stress:</b></p>
+      </span>
+      <br>
+      <span id="sign-responses">
+        <p><b>Here are some health signs that you need to get checked out:</b></p>
+      </span>
+      <br>
+      <span id="manage-responses">
+        <p><b>These are the things you have been doing to minimize your stress level:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
